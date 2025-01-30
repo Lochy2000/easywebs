@@ -106,6 +106,13 @@
     "jsx": "react-jsx",
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+
+    "lib": ["dom", "dom.iterable", "esnext"],                 /*Adds type definitions for browser APIs*/
+    "allowJs": true,                                    /*- Allows JavaScript files in your TypeScript project*/
+    "moduleResolution": "node",                         /*- Uses Node.js-style module resolution*/
+    "resolveJsonModule": true,                          /*- Enables importing JSON files*/
+    "isolatedModules": true,                            /* Ensures compatibility with transpilers like Babel*/
+    "noEmit": true,                                     /*- Prevents TypeScript from generating output files (Create React App handles this)*/
   }
 }
