@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
-  "homepage": "https://Lochy2000.github.io/easywebs",
+  "homepage": "https://lochy2000.github.io/easywebs",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build --git git",
