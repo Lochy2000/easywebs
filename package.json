@@ -6,7 +6,7 @@
   "homepage": "https://Lochy2000.github.io/easywebs",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages --dist build --branch gh-pages --dotfiles false --remove --no-history",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
