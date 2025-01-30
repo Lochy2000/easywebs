@@ -31,7 +31,7 @@ const PortfolioShowcase: React.FC = () => {
       component: RestaurantDemo,
       features: ["Online Booking", "Dynamic Menu", "Chef's Blog", "Virtual Tour"],
       color: "from-orange-500 to-red-600",
-      previewImage: "../assets/images/demo/democards/restaurant.avif"
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/restaurant.avif`
     },
     {
       id: 'fitness',
@@ -41,7 +41,7 @@ const PortfolioShowcase: React.FC = () => {
       component: FitnessDemo,
       features: ["Class Booking", "Progress Dashboard", "Trainer Profiles", "Workout Videos"],
       color: "from-green-500 to-teal-600",
-      previewImage: "../assets/images/demo/democards/fitness.avif"
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/fitness.avif`
     },
     {
       id: 'realestate',
@@ -51,7 +51,7 @@ const PortfolioShowcase: React.FC = () => {
       component: RealEstateDemo,
       features: ["Property Search", "Virtual Tours", "Agent Portal", "Mortgage Calculator"],
       color: "from-blue-500 to-indigo-600",
-      previewImage: "../assets/images/demo/democards/realestate.avif"
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/realestate.avif`
     },
     {
       id: 'agency',
@@ -61,7 +61,7 @@ const PortfolioShowcase: React.FC = () => {
       component: CreativeAgencyDemo,
       features: ["Case Studies", "Team Showcase", "Service Calculator", "Project Timeline"],
       color: "from-purple-500 to-pink-600",
-      previewImage: "../assets/images/demo/democards/creativeagency.avif"
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/creativeagency.avif`
     },
     {
       id: 'elearning',
@@ -71,7 +71,7 @@ const PortfolioShowcase: React.FC = () => {
       component: ELearningDemo,
       features: ["Course Catalog", "Progress Tracking", "Live Sessions", "Resource Library"],
       color: "from-yellow-500 to-orange-600",
-      previewImage: "../assets/images/demo/democards/e-learning.avif"
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/e-learning.avif`
     }
   ];
 
