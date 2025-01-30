@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes wave {
+    0%, 100% {
+      d: path("M0,100 Q50,0 100,100");
+    }
+    50% {
+      d: path("M0,100 Q50,200 100,100");
+    }
+  }
+
+/* Horizontal Line Animation (Left to Right) */
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-moveHorizontal {
+  animation: moveHorizontal 10s linear infinite;
+}
+
+/* Diagonal Line Animation (Top-Left to Bottom-Right) */
+@keyframes moveDiagonal1 {
+  0% {
+    transform: translate(-100%, -100%);
+  }
+  100% {
+    transform: translate(100%, 100%);
+  }
+}
+
+.animate-moveDiagonal1 {
+  animation: moveDiagonal1 15s linear infinite;
+}
+
+/* Diagonal Line Animation (Top-Right to Bottom-Left) */
+@keyframes moveDiagonal2 {
+  0% {
+    transform: translate(100%, -100%);
+  }
+  100% {
+    transform: translate(-100%, 100%);
+  }
+}
+
+.animate-moveDiagonal2 {
+  animation: moveDiagonal2 20s linear infinite;
+}
