@@ -2,10 +2,15 @@
   "name": "easywebs",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
+  "homepage": "https://Lochy2000.github.io/easywebs.git",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +37,7 @@
     "babel-loader": "^9.2.1",
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.3",
     "image-webpack-loader": "^8.1.0",
     "postcss": "^8.5.1",
