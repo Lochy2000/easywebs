@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/easywebs/static/css/main.9cf90de8.css",
+    "main.js": "/easywebs/static/js/main.b6c5198a.js",
+    "index.html": "/easywebs/index.html",
+    "main.9cf90de8.css.map": "/easywebs/static/css/main.9cf90de8.css.map",
+    "main.b6c5198a.js.map": "/easywebs/static/js/main.b6c5198a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cf90de8.css",
+    "static/js/main.b6c5198a.js"
+  ]
+}
