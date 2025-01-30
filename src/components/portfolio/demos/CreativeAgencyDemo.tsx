@@ -31,7 +31,7 @@ const CreativeAgencyDemo = () => {
       title: "Neon Dreams",
       client: "TechStart Studios",
       category: "Branding",
-      image: "../assets/images/demo/neon.avif",
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/neon.avif`,
       color: "from-pink-500 to-purple-500"
     },
     {
@@ -39,7 +39,7 @@ const CreativeAgencyDemo = () => {
       title: "Urban Flow",
       client: "City Wear Co",
       category: "Web Design",
-      image: "../assets/images/demo/urbanflow.avif",
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/urbanflow.avif`,
       color: "from-blue-500 to-teal-500"
     },
     {
@@ -47,7 +47,7 @@ const CreativeAgencyDemo = () => {
       title: "Natural Harmony",
       client: "Eco Products",
       category: "Brand Strategy",
-      image: "../assets/images/demo/natural.avif",
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/natural.avif`,
       color: "from-green-500 to-emerald-500"
     }
   ];

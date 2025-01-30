@@ -29,7 +29,7 @@ const ELearningDemo = () => {
       students: 1234,
       rating: 4.8,
       price: 89.99,
-      image: "../assets/images/demo/webdevelopmentclass.avif",
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/webdevelopmentclass.avif`,
       category: "Programming",
       topics: ["HTML & CSS", "JavaScript", "Responsive Design"]
     },
@@ -42,7 +42,7 @@ const ELearningDemo = () => {
       students: 856,
       rating: 4.6,
       price: 79.99,
-      image: "../assets/images/demo/degitalmarketing.avif",
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/degitalmarketing.avif`,
       category: "Marketing",
       topics: ["SEO", "Social Media", "Content Strategy"]
     },
@@ -55,7 +55,7 @@ const ELearningDemo = () => {
       students: 2156,
       rating: 4.9,
       price: 99.99,
-      image: "../assets/images/demo/ui&ux.avif",
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/ui&ux.avif`,
       category: "Design",
       topics: ["Design Theory", "User Research", "Prototyping"]
     }

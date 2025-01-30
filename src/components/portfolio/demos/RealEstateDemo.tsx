@@ -28,7 +28,7 @@ const RealEstateDemo: React.FC = () => {
       baths: 3.5,
       sqft: "3,200",
       type: "House",
-      image: "../assets/images/demo/Modern_villa.avif",
+      image:  `${process.env.PUBLIC_URL}/assets/images/demo/Modern_villa.avif`,
       status: "For Sale"
     },
     {
@@ -40,7 +40,7 @@ const RealEstateDemo: React.FC = () => {
       baths: 2,
       sqft: "2,100",
       type: "Condo",
-      image: "../assets/images/demo/Downtown_pent.avif",
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/Downtown_pent.avif`,
       status: "For Sale"
     },
     {
@@ -52,7 +52,7 @@ const RealEstateDemo: React.FC = () => {
       baths: 2.5,
       sqft: "2,400",
       type: "House",
-      image: "../assets/images/demo/Coastal_home.avif",
+      image:  `${process.env.PUBLIC_URL}/assets/images/demo/Coastal_home.avif`,
       status: "For Sale"
     }
   ];
@@ -71,7 +71,7 @@ const RealEstateDemo: React.FC = () => {
       <section className="relative h-[70vh] bg-gray-900">
         <div className="absolute inset-0">
           <img
-            src="../assets/images/demo/miami.avif"
+            src={`${process.env.PUBLIC_URL}/assets/images/demo/miami.avif`}
             alt="Luxury home"
             className="w-full h-full object-cover opacity-50"
           />

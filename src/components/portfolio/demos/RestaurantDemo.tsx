@@ -67,7 +67,7 @@ const RestaurantDemo = () => {
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 bg-black">
           <img
-            src="../assets/images/demo/food.avif"
+            src={`${process.env.PUBLIC_URL}/assets/images/demo/food.avif`}
             alt="Restaurant ambiance"
             className="w-full h-full object-cover opacity-70"
           />

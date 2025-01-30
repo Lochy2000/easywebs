@@ -25,7 +25,7 @@ const FitnessDemo = () => {
       duration: "45 min",
       intensity: "High",
       spots: 8,
-      image: "../assets/images/demo/power_hit.avif"
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/power_hit.avif`
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ const FitnessDemo = () => {
       duration: "60 min",
       intensity: "Medium",
       spots: 12,
-      image: "../assets/images/demo/yoga.avif"
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/yoga.avif`
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ const FitnessDemo = () => {
       duration: "50 min",
       intensity: "High",
       spots: 6,
-      image: "../assets/images/demo/strength.avif"
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/strength.avif`
     }
   ];
 
@@ -55,7 +55,7 @@ const FitnessDemo = () => {
       <section className="relative h-screen bg-black">
         <div className="absolute inset-0">
           <img
-            src="/api/placeholder/1920/1080"
+            src= {`${process.env.PUBLIC_URL}/assets/images/hero/mainimage.png`}
             alt="Fitness background"
             className="w-full h-full object-cover opacity-50"
           />
