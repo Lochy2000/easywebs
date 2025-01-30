@@ -57,7 +57,7 @@ const Hero = () => {
             {/* Main hero image placeholder */}
             <div className="absolute inset-0 flex items-center justify-center">
               <img
-                src="../assets/images/hero/mainimage.png"
+                src={`${process.env.PUBLIC_URL}/assets/images/hero/mainimage.png`}
                 alt="Hero illustration"
                 className="w-full h-full object-cover rounded-3xl mix-blend-screen animate-float"
               />

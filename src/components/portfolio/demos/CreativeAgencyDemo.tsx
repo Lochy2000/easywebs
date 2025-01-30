@@ -10,8 +10,9 @@ import {
 } from 'lucide-react';
 
 const CreativeAgencyDemo = () => {
-  const [activeWork, setActiveWork] = useState(null);
+    const [activeWork, setActiveWork] = useState<number | null>(null);
   const [scrollProgress, setScrollProgress] = useState(0);
+  
 
   useEffect(() => {
     const handleScroll = () => {

@@ -1,8 +1,19 @@
 import React, { useState } from 'react';
 import { Calendar, Clock, Dumbbell, Users, Play, ArrowRight, Heart } from 'lucide-react';
 
+interface ClassItem {
+    id: number;
+    name: string;
+    trainer: string;
+    time: string;
+    duration: string;
+    intensity: string;
+    spots: number;
+    image: string;
+  }
+
 const FitnessDemo = () => {
-  const [selectedClass, setSelectedClass] = useState(null);
+    const [selectedClass, setSelectedClass] = useState<ClassItem | null>(null);
   const [activeTab, setActiveTab] = useState('classes');
 
   const classes = [
