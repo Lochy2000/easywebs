@@ -107,7 +107,7 @@ const ServicesSection = () => {
       {services.map((service, index) => (
         <section 
           key={index}
-          className="min-h-screen sticky top-16 bg-white/80 backdrop-blur-sm z-20"
+          className="min-h-screen sticky top-16 bg-white/10 z-20"
         >
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="max-w-2xl w-full mx-4">

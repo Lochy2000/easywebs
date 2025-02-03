@@ -55,7 +55,7 @@ const FitnessDemo = () => {
       <section className="relative h-screen bg-black">
         <div className="absolute inset-0">
           <img
-            src= {`${process.env.PUBLIC_URL}/assets/images/hero/mainimage.png`}
+            src= {`${process.env.PUBLIC_URL}/assets/images/demo/gym.avif`}
             alt="Fitness background"
             className="w-full h-full object-cover opacity-50"
           />
