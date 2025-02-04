@@ -5,6 +5,7 @@ import Hero from '../components/Hero'
 import ProcessTimeline from '../components/ProcessTimeline'
 import SocialProof from '../components/SocialProof'
 import PortfolioShowcase from '../components/portfolio/PortfolioShowcase'
+import AnimatedBackground from '../components/AnimatedBackground'
 import { ArrowRight, Globe, Heart, Sun } from 'lucide-react';
 
 const HomePage = () => {
@@ -12,22 +13,21 @@ const HomePage = () => {
   return (
     <MainLayout>
       <div className="relative pt-16">
-        {/* Hero Section */}
-
+      {/* Animated BG */}
+        <AnimatedBackground/>
+      {/* Hero Section */}
         <Hero/>
 
+      {/* Services Section */}
+        <ServicesSection />
 
-       {/* Services Section */}
-
-       <ServicesSection />
-
-
-        {/* Process Section */}
-        
+      {/* Process Section */}
         <ProcessTimeline/>
 
+      {/* Soical Proof */}
         <SocialProof/>
 
+      {/* Portfolio Showcase */}
         <PortfolioShowcase/>
 
         {/* CTA Section */}

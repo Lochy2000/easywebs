@@ -61,11 +61,11 @@ const ProcessTimeline = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-blue-500">
         {/* Animated blobs */}
         <div 
-          className="absolute top-1/4 right-1/4 w-96 h-96 bg-gradient-to-r from-purple-500/30 to-blue-400/30 rounded-full blur-3xl animate-blob"
+          className="absolute w-1/3 aspect-square max-w-md top-1/4 right-1/4 bg-gradient-to-r from-purple-500/30 to-blue-400/30 rounded-full blur-3xl animate-blob"
           style={{ animationDelay: '0s' }}
         />
         <div 
-          className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-gradient-to-l from-purple-400/30 to-blue-500/30 rounded-full blur-3xl animate-blob"
+          className="absolute w-1/3 aspect-square max-w-md bottom-1/4 left-1/4 bg-gradient-to-l from-purple-400/30 to-blue-500/30 rounded-full blur-3xl animate-blob"
           style={{ animationDelay: '2s' }}
         />
       </div>
