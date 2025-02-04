@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/easywebs/static/css/main.a0a42ee9.css",
-    "main.js": "/easywebs/static/js/main.57e5e1d6.js",
+    "main.css": "/easywebs/static/css/main.68da087e.css",
+    "main.js": "/easywebs/static/js/main.8ace3a7b.js",
     "index.html": "/easywebs/index.html",
-    "main.a0a42ee9.css.map": "/easywebs/static/css/main.a0a42ee9.css.map",
-    "main.57e5e1d6.js.map": "/easywebs/static/js/main.57e5e1d6.js.map"
+    "main.68da087e.css.map": "/easywebs/static/css/main.68da087e.css.map",
+    "main.8ace3a7b.js.map": "/easywebs/static/js/main.8ace3a7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0a42ee9.css",
-    "static/js/main.57e5e1d6.js"
+    "static/css/main.68da087e.css",
+    "static/js/main.8ace3a7b.js"
   ]
 }
