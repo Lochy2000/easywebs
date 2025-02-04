@@ -88,7 +88,7 @@ const SocialProof = () => {
   };
 
   return (
-    <section className="relative min-h-screen bg-white">
+    <section className="relative min-h-screen bg-white bg-opacity-50">
       <div className="max-w-6xl mx-auto px-4 py-12 md:py-20">
         {/* Stats Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-12 md:mb-20">

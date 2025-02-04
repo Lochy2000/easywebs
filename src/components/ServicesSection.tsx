@@ -49,7 +49,7 @@ const ServicesSection: React.FC = () => {
   ];
 
   return (
-    <div className="relative">
+    <div className="relative bg-white bg-opacity-50">
       {/* Background Blobs */}
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-1/4 right-1/4 w-1/2 aspect-square bg-purple-500/20 rounded-full blur-3xl animate-blob"/>
@@ -118,7 +118,6 @@ const ServicesSection: React.FC = () => {
         ))}
       </div>
 
-      {/* Spacer to ensure proper scrolling */}
       
     </div>
   );
