@@ -19,8 +19,8 @@ const Navigation = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-          <Link to="/Portfolio.tsx" className="text-gray-600 hover:text-purple-600">Services</Link>
-          <Link to="/Portfolio.tsx" className="text-gray-600 hover:text-purple-600">Process</Link>
+            <Link to="/" className="text-gray-600 hover:text-purple-600">Services</Link>
+            <Link to="/" className="text-gray-600 hover:text-purple-600">Process</Link>
             <Link to="/portfolio" className="text-gray-600 hover:text-purple-600">Portfolio</Link>
             <Link to="/" className="px-6 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700">
               Free Consultation
@@ -43,33 +43,34 @@ const Navigation = () => {
         {isOpen && (
           <div className="md:hidden absolute w-full bg-white border-t">
             <div className="flex flex-col px-2 sm:px-4 py-2 space-y-2 max-w-7xl mx-auto">
-              <a 
-                href="" 
+              <Link 
+                to="/" 
                 className="py-2 text-gray-600 hover:text-purple-600"
                 onClick={() => setIsOpen(false)}
               >
                 Services
-              </a>
-              <a 
-                href="#process" 
+              </Link>
+              <Link 
+                to="#process" 
                 className="py-2 text-gray-600 hover:text-purple-600"
                 onClick={() => setIsOpen(false)}
               >
                 Process
-              </a>
-              <a 
-                href="/Portfolio" 
+              </Link>
+              <Link 
+                to="/portfolio" 
                 className="py-2 text-gray-600 hover:text-purple-600"
                 onClick={() => setIsOpen(false)}
               >
                 Portfolio
-              </a>
-              <button 
+              </Link>
+              <Link 
+                to="/"
                 className="w-full px-6 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700"
                 onClick={() => setIsOpen(false)}
               >
                 Free Consultation
-              </button>
+              </Link>
             </div>
           </div>
         )}
