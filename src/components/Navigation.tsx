@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom"
 import { Globe, Menu, X } from 'lucide-react';
 
 const Navigation = () => {
@@ -9,21 +10,21 @@ const Navigation = () => {
       <nav className="max-w-[100%]">
         <div className="relative flex items-center justify-between px-2 sm:px-4 py-4 w-full max-w-7xl mx-auto">
           {/* Logo */}
-          <div className="flex items-center">
+          <Link to="/" className="flex items-center">
             <Globe className="h-6 w-6 sm:h-8 sm:w-8 text-purple-600" />
             <span className="ml-1 sm:ml-2 text-lg sm:text-xl font-bold text-purple-600 whitespace-nowrap">
               easyweb
             </span>
-          </div>
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#services" className="text-gray-600 hover:text-purple-600">Services</a>
-            <a href="#process" className="text-gray-600 hover:text-purple-600">Process</a>
-            <a href="#portfolio" className="text-gray-600 hover:text-purple-600">Portfolio</a>
-            <button className="px-6 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700">
+          <Link to="/Portfolio.tsx" className="text-gray-600 hover:text-purple-600">Services</Link>
+          <Link to="/Portfolio.tsx" className="text-gray-600 hover:text-purple-600">Process</Link>
+            <Link to="/portfolio" className="text-gray-600 hover:text-purple-600">Portfolio</Link>
+            <Link to="/" className="px-6 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700">
               Free Consultation
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -43,7 +44,7 @@ const Navigation = () => {
           <div className="md:hidden absolute w-full bg-white border-t">
             <div className="flex flex-col px-2 sm:px-4 py-2 space-y-2 max-w-7xl mx-auto">
               <a 
-                href="#services" 
+                href="" 
                 className="py-2 text-gray-600 hover:text-purple-600"
                 onClick={() => setIsOpen(false)}
               >
@@ -57,7 +58,7 @@ const Navigation = () => {
                 Process
               </a>
               <a 
-                href="#portfolio" 
+                href="/Portfolio" 
                 className="py-2 text-gray-600 hover:text-purple-600"
                 onClick={() => setIsOpen(false)}
               >

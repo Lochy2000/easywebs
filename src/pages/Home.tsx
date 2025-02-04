@@ -4,7 +4,7 @@ import ServicesSection from '../components/ServicesSection';
 import Hero from '../components/Hero'
 import ProcessTimeline from '../components/ProcessTimeline'
 import SocialProof from '../components/SocialProof'
-import PortfolioShowcase from '../components/portfolio/PortfolioShowcase'
+import PortfolioPreview from '../components/portfolio/PortfolioPreview'
 import AnimatedBackground from '../components/AnimatedBackground'
 import { ArrowRight, Globe, Heart, Sun } from 'lucide-react';
 
@@ -28,7 +28,7 @@ const HomePage = () => {
         <SocialProof/>
 
       {/* Portfolio Showcase */}
-        <PortfolioShowcase/>
+        <PortfolioPreview/>
 
         {/* CTA Section */}
         <section className="min-h-screen sticky top-16 bg-gradient-to-br from-blue-500 to-purple-600">
