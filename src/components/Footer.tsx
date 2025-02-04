@@ -72,7 +72,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-6">Connect With Us</h3>
             <div className="flex gap-6">
               {[
-                { Icon: Github, href: 'https://github.com' },
+                { Icon: Github, href: 'https://github.com/Lochy2000/easywebs' },
                 { Icon: Instagram, href: 'https://instagram.com' },
                 { Icon: Linkedin, href: 'https://linkedin.com' }
               ].map(({ Icon, href }) => (

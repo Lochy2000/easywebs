@@ -56,9 +56,9 @@ const ProcessTimeline = () => {
   ];
 
   return (
-    <section className="min-h-screen relative">
+    <section className="min-h-screen py-20 bg-gradient-to-br from-gray-900 to-black">
       {/* Solid background with gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-blue-500">
+      <div>
         {/* Animated blobs */}
         <div 
           className="absolute w-1/3 aspect-square max-w-md top-1/4 right-1/4 bg-gradient-to-r from-purple-500/30 to-blue-400/30 rounded-full blur-3xl animate-blob"
