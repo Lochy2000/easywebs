@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import MainLayout from '../layouts/MainLayout';
 import ServicesSection from '../components/ServicesSection';
 import Hero from '../components/Hero'
@@ -9,6 +9,11 @@ import AnimatedBackground from '../components/AnimatedBackground'
 import { ArrowRight, Globe, Heart, Sun } from 'lucide-react';
 
 const HomePage = () => {
+
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+    
   
   return (
     <MainLayout>

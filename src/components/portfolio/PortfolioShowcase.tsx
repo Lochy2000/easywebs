@@ -5,7 +5,11 @@ import {
   FitnessDemo,
   RealEstateDemo,
   CreativeAgencyDemo,
-  ELearningDemo
+  ELearningDemo,
+  PersonalPortfolioDemo,
+  TradeDemo,
+  PhotographyDemo,
+  StreetWearDemo
 } from './demos';
 
 interface PortfolioItem {
@@ -23,6 +27,46 @@ const PortfolioShowcase: React.FC = () => {
   const [activeDemo, setActiveDemo] = useState<string | null>(null);
 
   const portfolioItems: PortfolioItem[] = [
+    {
+      id: 'personal-portfolio',
+      title: "Modern Portfolio",
+      industry: "Personal Branding",
+      description: "Dynamic personal portfolio with interactive elements and smooth animations",
+      component: PersonalPortfolioDemo,
+      features: ["Dynamic Hero Section", "Project Showcase", "Skill Visualization", "Contact Form"],
+      color: "from-blue-500 to-purple-500",
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/portfolio.avif`
+    },
+    {
+      id: 'trade',
+      title: "Trade Services",
+      industry: "Professional Services",
+      description: "Professional trade services website with service booking and emergency contact",
+      component: TradeDemo,
+      features: ["Service Booking", "Emergency Contact", "Portfolio Gallery", "Review System"],
+      color: "from-blue-500 to-indigo-600",
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/trade.avif`
+    },
+    {
+      id: 'photography',
+      title: "Photography Studio",
+      industry: "Creative Services",
+      description: "Elegant photography portfolio with immersive gallery and booking system",
+      component: PhotographyDemo,
+      features: ["Image Gallery", "Service Packages", "Booking System", "Client Portal"],
+      color: "from-gray-800 to-gray-900",
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/photography.avif`
+    },
+    {
+      id: 'streetwear',
+      title: "Urban Fashion",
+      industry: "E-commerce",
+      description: "Bold streetwear fashion store with dynamic product displays",
+      component: StreetWearDemo,
+      features: ["Product Catalog", "Shopping Cart", "Collection Showcase", "Newsletter"],
+      color: "from-red-600 to-red-800",
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/streetwear.avif`
+    },
     {
       id: 'restaurant',
       title: "Modern Restaurant",
@@ -75,6 +119,7 @@ const PortfolioShowcase: React.FC = () => {
     }
   ];
 
+  // Function to render active demo
   const renderActiveDemo = () => {
     if (!activeDemo) return null;
     const demo = portfolioItems.find(item => item.id === activeDemo);
