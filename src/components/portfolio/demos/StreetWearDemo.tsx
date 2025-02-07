@@ -195,15 +195,11 @@ const StreetWearDemo = () => {
       <section className="relative min-h-screen flex items-center">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-transparent z-10" />
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover"
-          >
-            <source src={`${process.env.PUBLIC_URL}/assets/videos/streetwear-hero.mp4`} type="video/mp4" />
-          </video>
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/images/demo/streetwear/streetwear.gif`}
+            alt="Luxury home"
+            className="w-full h-full object-cover opacity-90"
+          />
         </div>
 
         <div className="relative z-20 max-w-7xl mx-auto px-4 py-20">
