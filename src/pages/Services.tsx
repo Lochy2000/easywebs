@@ -1,13 +1,21 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import MainLayout from '../layouts/MainLayout';
+import ServicesSection from '../components/ServicesSection';
 
-const Services: React.FC = () => {
+const ServicesPage = () => {
+
+    // Reset scroll position when component mounts
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+  
   return (
-    <div className="py-12 bg-white">
-      <div className="max-w-7xl mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-8">Our Services</h1>
+    <MainLayout>
+      <div className="pt-16">
+        <ServicesSection />
       </div>
-    </div>
+    </MainLayout>
   );
 };
 
-export default Services;
+export default ServicesPage;

@@ -43,7 +43,7 @@ const PhotographyDemo = () => {
       category: 'portrait',
       title: 'Urban Portrait',
       description: 'Natural light portrait in urban setting',
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/portrait1.avif`,
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/1.png`,
       likes: 245
     },
     {
@@ -51,7 +51,7 @@ const PhotographyDemo = () => {
       category: 'landscape',
       title: 'Mountain Sunrise',
       description: 'Dawn breaking over mountain range',
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/landscape1.avif`,
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/2.png`,
       likes: 189
     },
     {
@@ -59,7 +59,7 @@ const PhotographyDemo = () => {
       category: 'wedding',
       title: 'First Dance',
       description: 'Intimate moment during first dance',
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/wedding1.avif`,
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/3.png`,
       likes: 312
     },
     {
@@ -67,7 +67,7 @@ const PhotographyDemo = () => {
       category: 'street',
       title: 'City Life',
       description: 'Candid street photography',
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/street1.avif`,
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/4.png`,
       likes: 156
     },
     {
@@ -75,7 +75,7 @@ const PhotographyDemo = () => {
       category: 'architecture',
       title: 'Modern Lines',
       description: 'Contemporary architecture study',
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/architecture1.avif`,
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/5.png`,
       likes: 278
     },
     {
@@ -83,7 +83,7 @@ const PhotographyDemo = () => {
       category: 'portrait',
       title: 'Studio Light',
       description: 'Professional studio portrait',
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/portrait2.avif`,
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/photography/6.png`,
       likes: 198
     }
   ];
@@ -159,9 +159,9 @@ const PhotographyDemo = () => {
       <section className="relative min-h-screen flex items-center">
         <div className="absolute inset-0">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/demo/photography/hero.avif`}
+            src={`${process.env.PUBLIC_URL}/assets/images/demo/photography/photography.gif`}
             alt="Hero"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover opacity-90"
           />
           <div className="absolute inset-0 bg-black/30" />
         </div>

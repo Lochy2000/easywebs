@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom"
 import { Globe, Menu, X } from 'lucide-react';
+import ConsultationButton from './ConsultationButton';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,12 +20,10 @@ const Navigation = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-600 hover:text-purple-600">Services</Link>
-            <Link to="/" className="text-gray-600 hover:text-purple-600">Process</Link>
+            <Link to="/services" className="text-gray-600 hover:text-purple-600">Services</Link>
+            <Link to="/process" className="text-gray-600 hover:text-purple-600">Process</Link>
             <Link to="/portfolio" className="text-gray-600 hover:text-purple-600">Portfolio</Link>
-            <Link to="/" className="px-6 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700">
-              Free Consultation
-            </Link>
+            <ConsultationButton showIcon={false} className="px-6 py-2" />
           </div>
 
           {/* Mobile Menu Button */}
@@ -44,14 +43,14 @@ const Navigation = () => {
           <div className="md:hidden absolute w-full bg-white border-t">
             <div className="flex flex-col px-2 sm:px-4 py-2 space-y-2 max-w-7xl mx-auto">
               <Link 
-                to="/" 
+                to="/services" 
                 className="py-2 text-gray-600 hover:text-purple-600"
                 onClick={() => setIsOpen(false)}
               >
                 Services
               </Link>
               <Link 
-                to="#process" 
+                to="/process" 
                 className="py-2 text-gray-600 hover:text-purple-600"
                 onClick={() => setIsOpen(false)}
               >
@@ -64,13 +63,7 @@ const Navigation = () => {
               >
                 Portfolio
               </Link>
-              <Link 
-                to="/"
-                className="w-full px-6 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700"
-                onClick={() => setIsOpen(false)}
-              >
-                Free Consultation
-              </Link>
+              <ConsultationButton showIcon={true} className="w-full px-6 py-2" />
             </div>
           </div>
         )}

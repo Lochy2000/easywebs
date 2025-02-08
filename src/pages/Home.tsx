@@ -1,8 +1,7 @@
 import React, {useEffect} from 'react';
 import MainLayout from '../layouts/MainLayout';
-import ServicesSection from '../components/ServicesSection';
 import Hero from '../components/Hero'
-import ProcessTimeline from '../components/ProcessTimeline'
+import BriefSections from '../components/BriefSections'
 import SocialProof from '../components/SocialProof'
 import PortfolioPreview from '../components/portfolio/PortfolioPreview'
 import AnimatedBackground from '../components/AnimatedBackground'
@@ -23,11 +22,8 @@ const HomePage = () => {
       {/* Hero Section */}
         <Hero/>
 
-      {/* Services Section */}
-        <ServicesSection />
-
-      {/* Process Section */}
-        <ProcessTimeline/>
+      {/* Services and Process */}
+        <BriefSections/>
 
       {/* Soical Proof */}
         <SocialProof/>

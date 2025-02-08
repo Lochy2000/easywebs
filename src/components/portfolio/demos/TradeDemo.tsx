@@ -42,7 +42,7 @@ const TradeDemo = () => {
         'Emergency electrical services',
         'Smart home wiring'
       ],
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/trade/electrical.avif`
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/trade/1.png`
     },
     {
       id: 'plumbing',
@@ -55,7 +55,7 @@ const TradeDemo = () => {
         'Drain cleaning',
         'Bathroom renovations'
       ],
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/trade/plumbing.avif`
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/trade/2.png`
     },
     {
       id: 'maintenance',
@@ -68,7 +68,7 @@ const TradeDemo = () => {
         'Safety upgrades',
         'Equipment installation'
       ],
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/trade/maintenance.avif`
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/trade/3.png`
     }
   ];
 

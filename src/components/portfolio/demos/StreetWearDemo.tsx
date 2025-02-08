@@ -38,8 +38,8 @@ const StreetWearDemo = () => {
       price: 129.99,
       category: "hoodies",
       images: [
-        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/hoodie1.avif`,
-        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/hoodie1-alt.avif`
+        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/1.png`,
+        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/streetfashion2/1.png`
       ],
       isNew: true,
       tags: ['Bestseller', 'New Drop'],
@@ -51,8 +51,8 @@ const StreetWearDemo = () => {
       price: 149.99,
       category: "pants",
       images: [
-        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/pants1.avif`,
-        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/pants1-alt.avif`
+        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/2.png`,
+        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/streetfashion2/2.png`
       ],
       isNew: true,
       tags: ['Limited Edition'],
@@ -64,8 +64,8 @@ const StreetWearDemo = () => {
       price: 49.99,
       category: "tees",
       images: [
-        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/tee1.avif`,
-        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/tee1-alt.avif`
+        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/3.png`,
+        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/streetfashion2/3.png`
       ],
       isNew: false,
       tags: ['Bestseller'],
@@ -77,8 +77,8 @@ const StreetWearDemo = () => {
       price: 199.99,
       category: "jackets",
       images: [
-        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/jacket1.avif`,
-        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/jacket1-alt.avif`
+        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/4.png`,
+        `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/streetfashion2/4.png`
       ],
       isNew: true,
       tags: ['New Collection'],
@@ -93,7 +93,7 @@ const StreetWearDemo = () => {
       price: 129.99,
       size: "L",
       quantity: 1,
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/hoodie1.avif`
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/streettech/1.png`
     },
     {
       id: 2,
@@ -101,7 +101,7 @@ const StreetWearDemo = () => {
       price: 149.99,
       size: "32",
       quantity: 1,
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/pants1.avif`
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/streettech/2.png`
     }
   ];
 
@@ -321,13 +321,13 @@ const StreetWearDemo = () => {
               {
                 title: "STREET TECH",
                 description: "Future-ready urban essentials",
-                image: `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/collection1.avif`,
+                image: `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/streettech/1.png`,
                 color: "from-red-600"
               },
               {
                 title: "URBAN UTILITY",
                 description: "Function meets street style",
-                image: `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/collection2.avif`,
+                image: `${process.env.PUBLIC_URL}/assets/images/demo/streetwear/streettech/2.png`,
                 color: "from-blue-600"
               }
             ].map((collection, index) => (

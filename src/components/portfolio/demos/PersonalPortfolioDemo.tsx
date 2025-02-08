@@ -44,21 +44,21 @@ const PersonalPortfolioDemo = () => {
       title: "AI-Powered Analytics",
       description: "Machine learning dashboard for real-time data analysis",
       tags: ["React", "Python", "TensorFlow"],
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/portfolio/project1.avif`,
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/personalportfolio/1.png`,
       color: "from-blue-500 to-purple-500"
     },
     {
       title: "Eco Commerce Platform",
       description: "Sustainable product marketplace with carbon footprint tracking",
       tags: ["Next.js", "Node.js", "MongoDB"],
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/portfolio/project2.avif`,
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/personalportfolio/2.png`,
       color: "from-green-500 to-teal-500"
     },
     {
       title: "Creative Portfolio",
       description: "Interactive 3D portfolio for digital artists",
       tags: ["Three.js", "WebGL", "GSAP"],
-      image: `${process.env.PUBLIC_URL}/assets/images/demo/portfolio/project3.avif`,
+      image: `${process.env.PUBLIC_URL}/assets/images/demo/personalportfolio/3.png`,
       color: "from-pink-500 to-rose-500"
     }
   ];

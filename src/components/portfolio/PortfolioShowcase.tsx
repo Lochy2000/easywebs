@@ -35,7 +35,7 @@ const PortfolioShowcase: React.FC = () => {
       component: PersonalPortfolioDemo,
       features: ["Dynamic Hero Section", "Project Showcase", "Skill Visualization", "Contact Form"],
       color: "from-blue-500 to-purple-500",
-      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/portfolio.avif`
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/modernport.jpg`
     },
     {
       id: 'trade',
@@ -45,7 +45,7 @@ const PortfolioShowcase: React.FC = () => {
       component: TradeDemo,
       features: ["Service Booking", "Emergency Contact", "Portfolio Gallery", "Review System"],
       color: "from-blue-500 to-indigo-600",
-      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/trade.avif`
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/plumber.png`
     },
     {
       id: 'photography',
@@ -55,7 +55,7 @@ const PortfolioShowcase: React.FC = () => {
       component: PhotographyDemo,
       features: ["Image Gallery", "Service Packages", "Booking System", "Client Portal"],
       color: "from-gray-800 to-gray-900",
-      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/photography.avif`
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/photographer.png`
     },
     {
       id: 'streetwear',
@@ -65,7 +65,7 @@ const PortfolioShowcase: React.FC = () => {
       component: StreetWearDemo,
       features: ["Product Catalog", "Shopping Cart", "Collection Showcase", "Newsletter"],
       color: "from-red-600 to-red-800",
-      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/streetwear.avif`
+      previewImage: `${process.env.PUBLIC_URL}/assets/images/demo/democards/fashion.png`
     },
     {
       id: 'restaurant',
