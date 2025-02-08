@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
-  "homepage": "https://lochy2000.github.io/easywebs",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build --git git",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL=$PUBLIC_URL react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
