@@ -3,7 +3,7 @@ import ConsultationButton from './ConsultationButton';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen pt-16">
+    <section className="relative min-h-screen">
       {/* Background gradient */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
@@ -18,11 +18,11 @@ const Hero = () => {
         </div>
       </div>
       
-      {/* Main content container */}
-      <div className="relative min-h-[calc(100vh-4rem)] flex flex-col lg:flex-row items-center justify-center px-4 md:px-8 max-w-7xl mx-auto">
+      {/* Main content container - Removed pt-16 and adjusted flex layout */}
+      <div className="relative h-screen flex items-center justify-center px-4 md:px-8 max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center w-full gap-8 lg:gap-12">
-          {/* Text content */}
-          <div className="w-full lg:w-1/2 z-10 text-center lg:text-left pt-8 lg:pt-0">
+          {/* Text content - Adjusted padding for better mobile display */}
+          <div className="w-full lg:w-1/2 z-10 text-center lg:text-left">
             <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white/90 text-sm mb-6">
               <span className="mr-2">✨</span>
               Transforming ideas into reality
@@ -52,7 +52,7 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* Image container */}
+          {/* Image container - Hidden on mobile, shown on larger screens */}
           <div className="hidden lg:flex w-1/2 justify-center items-center z-10">
             <div className="relative w-[500px] aspect-square">
               <div className="absolute inset-0 flex items-center justify-center">
