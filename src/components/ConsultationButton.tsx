@@ -16,7 +16,7 @@ const ConsultationButton: React.FC<ConsultationButtonProps> = ({
   
   //  email and WhatsApp number
   const emailAddress = 'lochlann_oht@hotmail.com';
-  const whatsappNumber = '07469707973'; 
+  const whatsappNumber = '+44 07469707973'; 
   
   // Check device width on mount and window resize
   useEffect(() => {
